@@ -1,0 +1,236 @@
+[
+  {
+    "source": "^Verify the status \"([^\"]*)\" of the uploaded file \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Verify the status \"Completed..\" of the uploaded file \"L_O_LNS_PO.A877CB7D.A015A041.xml\"",
+        "aggregatedDurations": {
+          "average": 15.857927,
+          "median": 15.857927
+        },
+        "durations": [
+          {
+            "duration": 15.857927,
+            "location": "./Features/LNS.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify success message \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Verify success message \"L_O_LNS_PO.A877CB7D.A015A041.xml File is uploaded successfully\"",
+        "aggregatedDurations": {
+          "average": 4.0863709,
+          "median": 4.0863709
+        },
+        "durations": [
+          {
+            "duration": 4.0863709,
+            "location": "./Features/LNS.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Select \"([^\"]*)\" from Client drop$",
+    "steps": [
+      {
+        "name": "Select \"JC Penney\" from Client drop",
+        "aggregatedDurations": {
+          "average": 7.1527856,
+          "median": 7.1527856
+        },
+        "durations": [
+          {
+            "duration": 7.1527856,
+            "location": "./Features/LNS.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter File Name \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Enter File Name \"L_O_LNS_PO.A877CB7D.A015A041.xml\"",
+        "aggregatedDurations": {
+          "average": 5.030949,
+          "median": 5.030949
+        },
+        "durations": [
+          {
+            "duration": 5.030949,
+            "location": "./Features/LNS.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on BaseData$",
+    "steps": [
+      {
+        "name": "Click on BaseData",
+        "aggregatedDurations": {
+          "average": 5.4330431,
+          "median": 5.4330431
+        },
+        "durations": [
+          {
+            "duration": 5.4330431,
+            "location": "./Features/LNS.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Admin Module$",
+    "steps": [
+      {
+        "name": "Click on Admin Module",
+        "aggregatedDurations": {
+          "average": 7.3247371,
+          "median": 7.3247371
+        },
+        "durations": [
+          {
+            "duration": 7.3247371,
+            "location": "./Features/LNS.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Upload the file \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Upload the file \"E:\\Automation\\coreUI\\FileUploads\\L_O_LNS_PO.A877CB7D.A015A041.xml\"",
+        "aggregatedDurations": {
+          "average": 6.9439956,
+          "median": 6.9439956
+        },
+        "durations": [
+          {
+            "duration": 6.9439956,
+            "location": "./Features/LNS.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Search$",
+    "steps": [
+      {
+        "name": "Click on Search",
+        "aggregatedDurations": {
+          "average": 5.3714878,
+          "median": 5.3714878
+        },
+        "durations": [
+          {
+            "duration": 5.3714878,
+            "location": "./Features/LNS.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify the PO Details in the Result grid \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Verify the PO Details in the Result grid \"SS7513355\"",
+        "aggregatedDurations": {
+          "average": 16.7238403,
+          "median": 16.7238403
+        },
+        "durations": [
+          {
+            "duration": 16.7238403,
+            "location": "./Features/LNS.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on New File Upload$",
+    "steps": [
+      {
+        "name": "Click on New File Upload",
+        "aggregatedDurations": {
+          "average": 12.4541167,
+          "median": 12.4541167
+        },
+        "durations": [
+          {
+            "duration": 12.4541167,
+            "location": "./Features/LNS.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Upload File List available on the side bar$",
+    "steps": [
+      {
+        "name": "Click on Upload File List available on the side bar",
+        "aggregatedDurations": {
+          "average": 7.3737753,
+          "median": 7.3737753
+        },
+        "durations": [
+          {
+            "duration": 7.3737753,
+            "location": "./Features/LNS.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Select \"([^\"]*)\" from File Type drop down$",
+    "steps": [
+      {
+        "name": "Select \"PO\" from File Type drop down",
+        "aggregatedDurations": {
+          "average": 10.4064259,
+          "median": 10.4064259
+        },
+        "durations": [
+          {
+            "duration": 10.4064259,
+            "location": "./Features/LNS.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Search for the Number \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Search for the Number \"SS7513355\"",
+        "aggregatedDurations": {
+          "average": 12.6379032,
+          "median": 12.6379032
+        },
+        "durations": [
+          {
+            "duration": 12.6379032,
+            "location": "./Features/LNS.feature:16"
+          }
+        ]
+      }
+    ]
+  }
+]

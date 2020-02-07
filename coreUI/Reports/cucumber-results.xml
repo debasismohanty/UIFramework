@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="131.467021">
+<testcase classname="LNS Application Automation" name="Upload PO files and validate PO Details" time="131.467021">
+<system-out><![CDATA[Given Select "JC Penney" from Client drop...................................passed
+Then Click on Admin Module..................................................passed
+Then Click on New File Upload...............................................passed
+And Upload the file "E:\Automation\coreUI\FileUploads\L_O_LNS_PO.A877CB7D.A015A041.xml".passed
+Then Verify success message "L_O_LNS_PO.A877CB7D.A015A041.xml File is uploaded successfully".passed
+Then Click on Upload File List available on the side bar....................passed
+And Select "PO" from File Type drop down....................................passed
+And Enter File Name "L_O_LNS_PO.A877CB7D.A015A041.xml"......................passed
+Then Click on Search........................................................passed
+And Verify the status "Completed.." of the uploaded file "L_O_LNS_PO.A877CB7D.A015A041.xml".passed
+Then Click on BaseData......................................................passed
+And Search for the Number "SS7513355".......................................passed
+Then Verify the PO Details in the Result grid "SS7513355"...................passed
+]]></system-out>
+</testcase>
+</testsuite>

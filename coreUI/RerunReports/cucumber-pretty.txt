@@ -1,0 +1,63 @@
+Feature: PO Upload
+
+  @POUpload
+  Scenario Outline: Upload PO files and validate PO Details              [90m# D:/ESSPL_Selenium_Projects/coreUI/Features/POUpload.feature:4[0m
+    [36mAnd [0m[36mSelect <ClientName> from Client drop_PO[0m
+    [36mThen [0m[36mClick on Admin Module_PO[0m
+    [36mThen [0m[36mClick on New File Upload_PO[0m
+    #Then Select the PO File Type
+    [36mAnd [0m[36mUpload the PO file_PO[0m
+    [36mThen [0m[36mVerify success message <ValidationMessage>_PO[0m
+    [36mThen [0m[36mClick on Upload File List available on the side bar_PO[0m
+    [36mAnd [0m[36mSelect PO from File Type drop down_PO[0m
+    [36mAnd [0m[36mEnter File Name <FileName>_PO[0m
+    [36mThen [0m[36mClick on Search_PO[0m
+    [36mAnd [0m[36mVerify the status <Status> of the uploaded PO file <FileName>_PO[0m
+    [36mThen [0m[36mClick on BaseData_PO[0m
+    [36mAnd [0m[36mSearch for the PO <PONumber>_PO[0m
+    [36mThen [0m[36mVerify the PO Details in the Result grid <PONumber>_PO[0m
+
+    Examples: 
+[34mScenario Failed..[0m
+
+  @POUpload
+  Scenario Outline: Upload PO files and validate PO Details                                         [90m# D:/ESSPL_Selenium_Projects/coreUI/Features/POUpload.feature:22[0m
+    [32mAnd [0m[32mSelect "[0m[32m[1mJC Penney[0m[32m" from Client drop_PO[0m                                                      [90m# Steps.select_from_Client_drop_PO(String)[0m
+    [32mThen [0m[32mClick on Admin Module_PO[0m                                                                   [90m# Steps.select_ClientName_from_Client_drop_PO()[0m
+    [32mThen [0m[32mClick on New File Upload_PO[0m                                                                [90m# Steps.click_on_New_File_Upload_PO()[0m
+    #Then Select the PO File Type
+    [31mAnd [0m[31mUpload the PO file_PO[0m                                                                       [90m# Steps.upload_the_PO_file_PO()[0m
+      [31morg.openqa.selenium.NoSuchElementException: Unable to find element with xpath == /html/body/form/div[3]/div[3]/div[1]/table/tbody/tr[2]/td/input[@type='file']
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+      System info: host: 'SHAIKHREHANPC', ip: '192.168.2.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+      Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+      Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:10722/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+      Session ID: fa515b77-767d-4a09-be34-9844346b1020
+      *** Element info: {Using=xpath, value=/html/body/form/div[3]/div[3]/div[1]/table/tbody/tr[2]/td/input[@type='file']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+      	at stepDefinations.Steps.upload_the_PO_file_PO(Steps.java:617)
+      	at ✽.And Upload the PO file_PO(D:/ESSPL_Selenium_Projects/coreUI/Features/POUpload.feature:9)
+      [0m
+    [36mThen [0m[36mVerify success message "[0m[36m[1mL_O_LNS_PO.A877CB7D.A015A041.xml File is uploaded successfully[0m[36m"_PO[0m [90m# Steps.verify_success_message__PO(String)[0m
+    [36mThen [0m[36mClick on Upload File List available on the side bar_PO[0m                                     [90m# Steps.click_on_Upload_File_List_available_on_the_side_bar_PO()[0m
+    [36mAnd [0m[36mSelect PO from File Type drop down_PO[0m                                                       [90m# Steps.select_PO_from_File_Type_drop_down_PO()[0m
+    [36mAnd [0m[36mEnter File Name "[0m[36m[1mL_O_LNS_PO.A877CB7D.A015A041.xml[0m[36m"_PO[0m                                       [90m# Steps.enter_File_Name__PO(String)[0m
+    [36mThen [0m[36mClick on Search_PO[0m                                                                         [90m# Steps.click_on_Search_PO()[0m
+    [36mAnd [0m[36mVerify the status "[0m[36m[1mCompleted[0m[36m" of the uploaded PO file "[0m[36m[1mL_O_LNS_PO.A877CB7D.A015A041.xml[0m[36m"_PO[0m [90m# Steps.verify_the_status_of_the_uploaded_PO_file__PO(String,String)[0m
+    [36mThen [0m[36mClick on BaseData_PO[0m                                                                       [90m# Steps.click_on_BaseData_PO()[0m
+    [36mAnd [0m[36mSearch for the PO "[0m[36m[1mSS7513355[0m[36m"_PO[0m                                                            [90m# Steps.search_for_the_PO__PO(String)[0m
+    [36mThen [0m[36mVerify the PO Details in the Result grid "[0m[36m[1mSS7513355[0m[36m"_PO[0m                                    [90m# Steps.verify_the_PO_Details_in_the_Result_grid__PO(String)[0m

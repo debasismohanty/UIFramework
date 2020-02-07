@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CSRequest>
+<CS>
+<ClientCode>JCPN</ClientCode>
+<BECode>USJCP</BECode>
+<CSNumber>JHT9506515</CSNumber>
+<ContainerNumber>MRKU9975555</ContainerNumber>
+<SizeType/>
+<CSLine>
+<SONumber>SSS7495765</SONumber>
+<SOSequence>2</SOSequence>
+<PONumber>SS7513355</PONumber>
+<POSequence>1</POSequence>
+<Packages>0000005</Packages>
+<PackingType>Mixed</PackingType>
+<SKU>Ss05833775</SKU>
+<PSLV1>01</PSLV1>
+<PSLV2>RT</PSLV2>
+<PSLV3>O</PSLV3>
+<PSLV4>1</PSLV4>
+</CSLine>
+</CS>
+</CSRequest>

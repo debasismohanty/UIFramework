@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^Select \"([^\"]*)\" from Client drop_PO$",
+    "steps": [
+      {
+        "name": "Select \"JC Penney\" from Client drop_PO",
+        "aggregatedDurations": {
+          "average": 7.5058021,
+          "median": 7.5058021
+        },
+        "durations": [
+          {
+            "duration": 7.5058021,
+            "location": "D:/ESSPL_Selenium_Projects/coreUI/Features/POUpload.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Admin Module_PO$",
+    "steps": [
+      {
+        "name": "Click on Admin Module_PO",
+        "aggregatedDurations": {
+          "average": 12.2295648,
+          "median": 12.2295648
+        },
+        "durations": [
+          {
+            "duration": 12.2295648,
+            "location": "D:/ESSPL_Selenium_Projects/coreUI/Features/POUpload.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on New File Upload_PO$",
+    "steps": [
+      {
+        "name": "Click on New File Upload_PO",
+        "aggregatedDurations": {
+          "average": 6.0407216,
+          "median": 6.0407216
+        },
+        "durations": [
+          {
+            "duration": 6.0407216,
+            "location": "D:/ESSPL_Selenium_Projects/coreUI/Features/POUpload.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]
