@@ -16,8 +16,7 @@ public class BaseClass {
 	//public static Properties OR = new Properties();
 	public static Logger logger = Logger.getLogger("coreUI");
 	public static WebDriverWait wait;
-	public static FileInputStream fis;
-	
+	public FileInputStream fis;
 	public  WebDriver driver = null;
 	public CommonUtilities cm;
 	public ExtentReporterListener erL;
